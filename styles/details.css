@@ -1,19 +1,38 @@
+.title {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.title img {
+    margin: 1em auto;
+    border: 2px solid #864b31;
+}
+
 .details {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .detail--column {
     flex-basis: 24%;
     margin: 0 2rem;
     padding: 1rem;
-    border: 1px dotted goldenrod;
+    border: .2rem dotted #864b31;
+    background-color: #fcefd3;
 }
 
 .orders {
     width: 80%;
-    margin: 0 auto;
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 40%;
+    border: .2rem dotted #864b31;
+    background-color: #fcefd3;
 }
 
 
